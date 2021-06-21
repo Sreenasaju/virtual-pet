@@ -12,7 +12,25 @@
       <!--Your web app's Firebase configuration
          Add here
         Initialize Firebase-->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDNeZG6xFnQGt_pJkc7hB8oPEUF28Kh1d4",
+    authDomain: "virtual-pet-1-1217b.firebaseapp.com",
+    projectId: "virtual-pet-1-1217b",
+    storageBucket: "virtual-pet-1-1217b.appspot.com",
+    messagingSenderId: "46143674233",
+    appId: "1:46143674233:web:0b2804223d5b8bb11f41a8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
       <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
